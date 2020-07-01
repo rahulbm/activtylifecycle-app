@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onSaveInstanceState(@NonNull Bundle outState, @NonNull PersistableBundle outPersistentState) {
         super.onSaveInstanceState(outState, outPersistentState);
-        Log.d("onSaveInstanceState::::::::::::","super.onSaveInstanceState()");
+        Log.d("onSaveInstanceState::::","super.onSaveInstanceState()");
 
     }
 
